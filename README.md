@@ -1,3 +1,3 @@
 # goit-blended-js-04
 
-GoIT Balanded JavaScript 04
+GoIT Blended JavaScript 04
