@@ -159,7 +159,7 @@ do {
 // 1 - При події `input`, якщо користувач ввів в поле більше 
 // 6 символів то додати клас `success`. Якщо ж символів менше аніж 6,
 // то клас `error`
-/*
+
 const input = document.querySelector('form input');
 if (input) {
   input.addEventListener('input', () => {
@@ -172,29 +172,29 @@ if (input) {
     }
   });
 }
-*/
+
 
 // 2 - При події `focus` зроби перевірку на пустоту поля інпута,
 // якщо ж поле пусте, то зроби `outline` => `'3px solid red'`,
 // якщо при фокусі поле непусте, то `outline` => `'3px solid green'`
-/*
+
 if (input) {
   input.addEventListener('focus', () => {
     input.style.outline = (input.value.trim() === '') ? '3px solid red' : '3px solid green';
   });
 }
-*/
+
 
 // 3 - При події `blur` зроби перевірку на пустоту поля інпута,
 // якщо ж поле пусте, то зроби `outline` => `'3px solid red'`, 
 // якщо при фокусі поле непусте, то `outline` => `'3px solid lime'`
-/*
+
 if (input) {
   input.addEventListener('blur', () => {
     input.style.outline = (input.value.trim() === '') ? '3px solid red' : '3px solid lime';
   });
 }
-*/
+
 
 // 4 - При події `submit`. Відміни поведінку браузера по змовчуванню.
 // Дістань данні з інпуту і чек боксу, зроби перевірку, 
@@ -207,7 +207,7 @@ if (input) {
 // щоб на місце повернулось дефолтне значення "Anonymous".
 // При відправці форми, очисти інпут, верни чек бокс у положення 
 // false, верни дефолтне значення "Anonymous" у span.
-/*
+
 const userSpan = document.querySelector('.js-username-output');
 if (input) {
   input.addEventListener('input', () => {
@@ -239,7 +239,7 @@ if (form) {
     }
   });
 }
-*/
+
 
 
 
@@ -249,7 +249,7 @@ if (form) {
 // Використовуй шаблон розмітки з файлу html та напиши наступний функціонал:
 // При кліку на кнопку "Зменшити" квадрат стає меньшим на 20 пікселів,
 // При кліку на кнопку "Збільшити" - квадрат стає більшим на 20 пікселів.
-/*
+
 
 const refs = {
   box: document.querySelector('.box'),
@@ -276,5 +276,5 @@ if (refs.btnDecrease) {
     }
   });
 }
-*/
+
 
